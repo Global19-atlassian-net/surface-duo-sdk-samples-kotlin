@@ -16,7 +16,7 @@
 
     <include
         android:id="@+id/effect_control"
-        layout="@layout/effect_control"
+        layout="@layout/companion_pane_effect_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/magic_definition_control"
@@ -26,7 +26,7 @@
 
     <include
         android:id="@+id/magic_definition_control"
-        layout="@layout/magic_definition_control"
+        layout="@layout/companion_pane_magic_definition_control"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/large_padding"
@@ -37,7 +37,7 @@
 
     <include
         android:id="@+id/vignette_brightness_control"
-        layout="@layout/vignette_brightness_control"
+        layout="@layout/companion_pane_vignette_brightness_control"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@id/magic_definition_control"
@@ -47,7 +47,7 @@
 
     <include
         android:id="@+id/short_filter_icon_control"
-        layout="@layout/short_filter_icon_control"
+        layout="@layout/companion_pane_short_filter_icon_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -58,7 +58,7 @@
 
     <include
         android:id="@+id/scale_control"
-        layout="@layout/scale_control"
+        layout="@layout/companion_pane_scale_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/large_padding"

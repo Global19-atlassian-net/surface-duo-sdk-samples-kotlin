@@ -28,7 +28,7 @@ class ShortcutsTest {
     private val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
     private val context = InstrumentationRegistry.getInstrumentation().targetContext
 
-    private val APP_NAME = context.getString(R.string.app_name)
+    private val APP_NAME = context.getString(R.string.multiple_instances_app_name)
     private val NEW_INSTANCE_SHORTCUT_LABEL = context.getString(R.string.main_shortcut_label)
     private val SECOND_ACTIVITY_SHORTCUT_LABEL = context.getString(R.string.second_shortcut_label)
 

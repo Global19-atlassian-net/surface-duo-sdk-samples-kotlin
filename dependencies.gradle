@@ -13,10 +13,11 @@ ext {
     minSdkVersion = compileSdkVersion
 
     config = [
-            duoSdkVersion            : "1.0.0-beta1",
             gradlePlugin             : "com.android.tools.build:gradle:$gradlePluginVersion",
             kotlinGradlePlugin       : "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion",
-            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner"
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner",
+            duoSdkUrl                : "https://pkgs.dev.azure.com/E-OS/DevX/_packaging/SurfaceDuo-libraries/maven/v1",
+            sdkVersion               : "1.1.1-ancirja"
     ]
 
     kotlinDependencies = [
@@ -54,14 +55,13 @@ ext {
     ]
 
     //Microsoft dependencies version
-    dualScreenLayoutVersion = "1.0.0-alpha01"
-    screenManagerWindowManagerVersion = config.duoSdkVersion
-    screenManagerDisplayMaskVersion = config.duoSdkVersion
-    fragmentsHandlerVersion = config.duoSdkVersion
-    layoutsVersion = config.duoSdkVersion
-    bottomNavigationVersion = config.duoSdkVersion
-    recyclerViewVersion = config.duoSdkVersion
-    tabsVersion = config.duoSdkVersion
+    screenManagerWindowManagerVersion = config.sdkVersion
+    screenManagerDisplayMaskVersion = config.sdkVersion
+    fragmentsHandlerVersion = config.sdkVersion
+    layoutsVersion = config.sdkVersion
+    bottomNavigationVersion = config.sdkVersion
+    recyclerViewVersion = config.sdkVersion
+    tabsVersion = config.sdkVersion
 
     microsoftDependencies = [
             screenManagerWindowManager: "com.microsoft.device.dualscreen:screenmanager-windowmanager:$screenManagerWindowManagerVersion",

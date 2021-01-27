@@ -6,7 +6,7 @@
   -->
 
 <resources>
-    <string name="app_name">PenEvents</string>
+    <string name="pen_events_app_name">Pen Events</string>
     <string name="action_button_release">Action : Button Release</string>
     <string name="action_button_press">Action : Button Press</string>
     <string name="action_hover_move">Action : Hover Move</string>

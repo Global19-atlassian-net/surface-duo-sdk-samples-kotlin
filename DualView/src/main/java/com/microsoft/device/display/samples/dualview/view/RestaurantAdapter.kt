@@ -31,7 +31,7 @@ class RestaurantAdapter(
     private val layoutInflater = LayoutInflater.from(context)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        RestaurantViewHolder(layoutInflater.inflate(R.layout.restaurant_item, parent, false))
+        RestaurantViewHolder(layoutInflater.inflate(R.layout.dual_view_restaurant_item, parent, false))
 
     override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
         holder.bind(

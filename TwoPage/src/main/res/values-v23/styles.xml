@@ -5,7 +5,6 @@
   -->
 
 <resources>
-
     <style name="Text.Content">
         <item name="android:lineSpacingExtra">5dp</item>
         <item name="android:breakStrategy">balanced</item>

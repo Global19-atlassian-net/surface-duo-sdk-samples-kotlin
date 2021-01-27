@@ -1,0 +1,69 @@
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.Licensed under the MIT License.
+  -->
+
+<resources>
+    <string name="surface_duo_samples_app_name">Surface Duo Samples</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Welcome to the Surface Duo Samples App!</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="try_it_out">Try ot out</string>
+
+    <!--    <string name="drag_and_drop_title">@string/drag_and_drop_app_name</string>-->
+    <!--    <string name="dual_view_title">@string/dual_view_app_name</string>-->
+    <!--    <string name="hinge_angle_title">@string/hinge_angle_app_name</string>-->
+    <!--    <string name="list_details_title">@string/list_details_app_name</string>-->
+    <!--    <string name="pen_events_title">@string/pen_events_app_name</string>-->
+    <!--    <string name="two_page_title">@string/two_page_app_name</string>-->
+    <!--    <string name="companion_pane_title">@string/companion_pane_app_name</string>-->
+    <!--    <string name="extend_canvas_title">@string/extend_canvas_app_name</string>-->
+    <!--    <string name="intent_to_second_screen_title">@string/intent_app_name</string>-->
+    <!--    <string name="qualifiers_title">@string/qualifiers_app_name</string>-->
+    <!--    <string name="multiple_instances_title">@string/multiple_instances_app_name</string>-->
+
+    <string name="drag_and_drop_title">Try it out</string>
+    <string name="dual_view_title">Try it out</string>
+    <string name="hinge_angle_title">Try it out</string>
+    <string name="list_details_title">Try it out</string>
+    <string name="pen_events_title">Try it out</string>
+    <string name="two_page_title">Try it out</string>
+    <string name="companion_pane_title">Try it out</string>
+    <string name="extend_canvas_title">Try it out</string>
+    <string name="intent_to_second_screen_title">Try it out</string>
+    <string name="qualifiers_title">Try it out</string>
+    <string name="multiple_instances_title">Try it out</string>
+
+
+    <string name="app_1_drag_and_drop">Drag and drop</string>
+    <string name="app_2_dual_view">Dual View</string>
+    <string name="app_3_hinge_angle">Hinge Angle </string>
+    <string name="app_4_list_details">List Detail</string>
+    <string name="app_5_pen_events">Pen Events</string>
+    <string name="app_6_two_page">Two Page</string>
+    <string name="app_7_companion_pane">Companion Pane</string>
+    <string name="app_8_extended_canvas">Extended Canvas</string>
+    <string name="app_9_intent_to_second_screen">Intent To Second Screen</string>
+    <string name="app_10_qualifiers">Qualifiers</string>
+    <string name="app_11_multiple_instances">Multiple Instances</string>
+
+    <string name="drag_and_drop_info">Drag and drop - Shows how to build a layout where you can drag and drop content from other apps.</string>
+    <string name="dual_view_info">Dual View - Shows how to build a layout with custom behavior for single screen or dual screen.</string>
+    <string name="hinge_angle_info">Hinge Angle- Shows how to listen to the hinge angle sensor and use the angle values.</string>
+    <string name="list_details_info">List Detail - Shows how to implement the list-details pattern on Surface Duo.</string>
+    <string name="pen_events_info">Pen Events - Shows how to follow the pen events and use the metrics.</string>
+    <string name="two_page_info">Two Page - Shows how to build a two page layout.</string>
+    <string name="companion_pane_info">Companion Pane - Shows how to build a companion pane.</string>
+    <string name="extend_canvas_info">Extended Canvas - Shows how to integrate a large canvas.</string>
+    <string name="intent_to_second_screen_info">Intent To Second Screen - Shows how to open activities in different scenarios.</string>
+    <string name="qualifiers_info">Qualifiers - Shows how to use the android resource qualifiers to structure the project resources for duo devices.</string>
+    <string name="multiple_instances_info">Multiple Instances - Shows how to open multiple instances of the same activity.</string>
+
+</resources>

@@ -28,7 +28,7 @@
 
     <include
         android:id="@+id/effect_control"
-        layout="@layout/effect_control"
+        layout="@layout/companion_pane_effect_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/large_padding"
@@ -39,7 +39,7 @@
 
     <include
         android:id="@+id/full_filter_icon_control"
-        layout="@layout/full_filter_icon_control"
+        layout="@layout/companion_pane_full_filter_icon_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/large_padding"
@@ -50,7 +50,7 @@
 
     <include
         android:id="@+id/scale_control"
-        layout="@layout/scale_control"
+        layout="@layout/companion_pane_scale_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/large_padding"
